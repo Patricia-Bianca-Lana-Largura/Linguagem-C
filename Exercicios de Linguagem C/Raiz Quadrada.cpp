@@ -11,6 +11,7 @@ int main(){
 	
 	printf("Digite um número: \n");
 	scanf("%d", &number);
+	fflush(stdin);
 	
 	potencia = pow(number,2);
 	
