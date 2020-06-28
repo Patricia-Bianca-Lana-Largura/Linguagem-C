@@ -14,8 +14,11 @@ int main(){
 	
 	printf("Insira seu peso: \n");
 	scanf("%f", &peso);
+	fflush(stdin);
+	
 	printf("Insira sua altura: \n");
 	scanf("%f", &altura);
+	fflush(stdin);
 	
 	IMC = peso/(altura*altura);
 	printf("Seu IMC é: %.2f \n", IMC);
