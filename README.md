@@ -1,4 +1,5 @@
-# Olá, Mundo
- Primeiro repositório do curso de Git e GitHub
-
-Repositório criado durante uma aula!
+# Lógica de Programação
+ Aprendendo lógica de programação com **linguagem C** na teoria e prática para adquirir entendimento dos novos comandos aprendidos.
+ Ferramenta utilizada para desenvolvimento das atividades de estudo:
+ DEV C++
+ 
