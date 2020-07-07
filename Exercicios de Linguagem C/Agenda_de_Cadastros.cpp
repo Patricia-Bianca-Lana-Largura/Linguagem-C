@@ -7,10 +7,10 @@ int main(){
 	setlocale(LC_ALL, "Portuguese");
 	
 	int escolha;
-	char cadastro[5][3];
+	char nome[5][30], telefone[5][14], email[5][30];
 	int linha;
 	char condicao;
-
+	
 	printf("-------------------------------- ");
 	printf("\nAGENDA VERSÃO BETA:\n");
 	printf("-------------------------------- \n ");
@@ -24,55 +24,49 @@ int main(){
 	switch("%d", escolha)
 	{
 		case 1:
-		
-			for(int i=0; i<1; i++)
+			
+			for(int i=0; i<5; i++)
 			{
+			
 				printf("\nInforme seu nome: \n");
-				scanf("%s", &cadastro[0][0]);
+				scanf("%s", &nome[linha]);
 				fflush(stdin);
 				
 				printf("Informe seu telefone: \n");
-				scanf("%s",&cadastro[0][1]);
+				scanf("%s",&telefone[linha]);
 				fflush(stdin);
 				
 				printf("Informe seu email: \n");
-				scanf("%s", &cadastro[0][2]);
+				scanf("%s", &email[linha]);
 				fflush(stdin);
 				
 				linha++;
-				
-			
-			
-			
-			
-		
-			printf("Você deseja fazer um novo cadastro? \n [s]Sim  ou [n]Não %c",condicao);
-			scanf("%c",&condicao);
-			
-			
-			if(&condicao=="%c s")
-			{
-				return(main());
-				system("cls");
-				
-			}else{
-				printf("Fim!");
-				return(0);
 			}
 		
+		
+			printf("Agenda lotada! Você deseja voltar ao menu inicial? \n [s]Sim  ou [n]Não %c",condicao);
+			scanf("%c",&condicao);
 			
-			break;
-		}
+			switch("%c", condicao)
+			{
+				case 's':
+					return(main());
+					system("cls");
+					
+				break;
+				case 'n':
+					printf("Fim!");
+					return(0);
+					
+				break;
+			}
+		
+		break;
+		
 		
 		case 2:
 		
-			
 			break;
-		
-		
-		
-		
-		
 		
 		
 		case 0: 
@@ -83,9 +77,6 @@ int main(){
 			break;
 		}
 			
-		
-		
-		
 			
 		default:
 			printf("Erro: Opção inválida!\n");
