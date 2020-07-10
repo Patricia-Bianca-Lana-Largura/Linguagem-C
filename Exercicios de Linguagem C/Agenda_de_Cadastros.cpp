@@ -1,16 +1,29 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<locale.h>
 #include<time.h>
+#include<stdlib.h>
 
-int main(){
-	setlocale(LC_ALL, "Portuguese");
+	struct cadastro{
+		char nome[30], telefone[14], email[30];
+		int valorRandom;
+		 
+	};
+
+	struct cadastro cliente[6];
 	
 	int escolha;
-	char nome[5][30], telefone[5][14], email[5][30];
-	int linha;
 	char condicao;
 	
+	
+	time_t inicio;
+	
+		
+int main(){
+	setlocale(LC_ALL,"Portuguese");
+	
+	
+	srand((unsigned) time(&inicio));
+
 	printf("-------------------------------- ");
 	printf("\nAGENDA VERSÃO BETA:\n");
 	printf("-------------------------------- \n ");
@@ -19,74 +32,70 @@ int main(){
 
 	scanf("%d",&escolha);
 	system("cls");
-
-
-	switch("%d", escolha)
-	{
+	
+	
+	switch("%d",escolha){
+	
 		case 1:
-			
-			for(int i=0; i<5; i++)
-			{
-			
-				printf("\nInforme seu nome: \n");
-				scanf("%s", &nome[linha]);
+			for(int i=1; i<6; i++){
+				
+				printf("CADASTRO %d: \n", i);
+				
+				cliente[i].valorRandom = (rand() % 1001);
+				printf("Número de Cadastro: %d \n", cliente[i].valorRandom);
+				
+				
+				printf("Digite o seu nome: \n");
+				scanf("%s",cliente[i].nome);
 				fflush(stdin);
 				
-				printf("Informe seu telefone: \n");
-				scanf("%s",&telefone[linha]);
+				printf("Digite o seu telefone: \n");
+				gets(cliente[i].telefone);
 				fflush(stdin);
 				
-				printf("Informe seu email: \n");
-				scanf("%s", &email[linha]);
-				fflush(stdin);
-				
-				linha++;
-			}
-		
-		
-			printf("Agenda lotada! Você deseja voltar ao menu inicial? \n [s]Sim  ou [n]Não %c",condicao);
-			scanf("%c",&condicao);
+				printf("Digite seu email: \n");
+				gets(cliente[i].email);
+				fflush(stdin);	
 			
-			switch("%c", condicao)
-			{
-				case 's':
-					return(main());
-					system("cls");
+			
+		}
+					printf("Agenda Lotada!Deseja voltar ao menu inicial? [s]Sim  [n]Não \n", condicao);
+					scanf("%c",&condicao);
 					
-				break;
-				case 'n':
-					printf("Fim!");
-					return(0);
-					
-				break;
-			}
-		
+					switch("%c", condicao){
+						case 's':
+							return(main());
+							system("cls");
+									
+						break;
+						case 'n':
+							printf("Fim!");
+							return(0);
+									
+						break;
+						}
+			
 		break;
-		
-		
-		case 2:
-		
-			break;
-		
-		
-		case 0: 
-		if (escolha==0){
+			
+		case 0:
 			printf("Fim!");
 			return(0);
+		break;
 			
+			
+		case 2:
+			for(int i=1; i<6; i++){
+				printf("\nCADASTRO %d: \n", i);
+				printf("Número de cadastro: %d \n",cliente[i].valorRandom);
+			
+				printf("Nome: %s \n", cliente[i].nome);
+			
+				printf("Telefone:%s \n",cliente[i].telefone);
+			
+				printf("Email: %s \n", cliente[i].email);
+			
+			}
 			break;
-		}
-			
-			
-		default:
-			printf("Erro: Opção inválida!\n");
-			system("pause");
-			system("cls");
-			fflush(stdin);
-			return(main());			
-		
 	}
-	
 		
 }
-
