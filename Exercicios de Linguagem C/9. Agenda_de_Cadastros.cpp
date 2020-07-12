@@ -5,23 +5,17 @@
 
 	struct cadastro{
 		char nome[30], telefone[14], email[30];
-		int valorRandom;
-		 
+		int valorRandom;	 
 	};
 
 	struct cadastro cliente[6];
-	
-	int escolha;
 	char condicao;
-	
-	
 	time_t inicio;
-	
-		
+	int	i= 1;
+			
 int main(){
 	setlocale(LC_ALL,"Portuguese");
-	
-	
+	int escolha;
 	srand((unsigned) time(&inicio));
 
 	printf("-------------------------------- ");
@@ -30,14 +24,22 @@ int main(){
 	printf("\nEscolha as opções abaixo:\n");
 	printf("\n[1]Inserir um novo cadastro; \n[2]Mostrar todos os cadastros; \n[0]Encerrar. \n");
 
-	scanf("%d",&escolha);
-	system("cls");
+	scanf("%d",&escolha); 
+	fflush(stdin);
 	
-	
-	switch("%d",escolha){
+			
+	switch(escolha){
 	
 		case 1:
-			for(int i=1; i<6; i++){
+			system("cls");
+			
+		
+	if(i>4){
+				
+			printf("\n Agenda Lotada!\n");
+			}else{
+				
+			for(i=1; i<6; i++){
 				
 				printf("CADASTRO %d: \n", i);
 				
@@ -56,34 +58,18 @@ int main(){
 				printf("Digite seu email: \n");
 				gets(cliente[i].email);
 				fflush(stdin);	
-			
-			
-		}
-					printf("Agenda Lotada!Deseja voltar ao menu inicial? [s]Sim  [n]Não \n", condicao);
-					scanf("%c",&condicao);
-					
-					switch("%c", condicao){
-						case 's':
-							return(main());
-							system("cls");
-									
-						break;
-						case 'n':
-							printf("Fim!");
-							return(0);
-									
-						break;
-						}
-			
+			}
+				
+			}				
+		system("pause");
+		system("cls");			
+		return(main());	
+		
 		break;
-			
-		case 0:
-			printf("Fim!");
-			return(0);
-		break;
-			
 			
 		case 2:
+			if(i>4){
+		
 			for(int i=1; i<6; i++){
 				printf("\nCADASTRO %d: \n", i);
 				printf("Número de cadastro: %d \n",cliente[i].valorRandom);
@@ -94,8 +80,22 @@ int main(){
 			
 				printf("Email: %s \n", cliente[i].email);
 			
+			}}else{
+					printf("\nAgenda vazia!\n");
+					system("pause");
+					system("cls");
 			}
+			return(main());
+		break;
+			
+		case 0:
+			printf("Fim!");
+			return(0);
+		break;
+		
+		default:
+			if(escolha != 0){
+				printf("Opção Inválida!");	}
 			break;
 	}
-		
 }
