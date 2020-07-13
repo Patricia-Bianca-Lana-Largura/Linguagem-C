@@ -8,11 +8,14 @@
  
 Número | Nome | Descrição |
 | ------------ | ------------ | ------------ |
-| 1 | Calculadora | Resolve as 4 operações básicas (soma, subtração, divisão e multiplicação)  |
-| 2 | IMC | Exemplo de cálculo de Índice de Massa Corporal |
-| 3 | AreaDoTrapézio | Cálculo da área do Trapézio  |
-| 4 | RaizQuadrada | Mostra a raiz quadrada e o quadrado de um número  |
-| 5 |  Num_randomicos | Exemplo de como gerar números randômicos |
-| 6 |  If_And_Else | Utilizando estrutura condicional If e Else, e operador lógico de conjunção (&&). Exemplo: valor do plano de saúde   |
-| 7 | Media | Calculando a média aritmética. Ex: calculando a média de 4 notas |
-| 8 | Matriz | Imprimindo uma matriz na tela com valor pré-definido |
+| 1 | Calculadora | Resolve as 4 operações básicas (soma, subtração, divisão e multiplicação).  |
+| 2 | IMC | Exemplo de cálculo de Índice de Massa Corporal. |
+| 3 | AreaDoTrapézio | Cálculo da área do Trapézio.  |
+| 4 | RaizQuadrada | Mostra a raiz quadrada e o quadrado de um número.  |
+| 5 |  Num_randomicos | Exemplo de como gerar números randômicos. |
+| 6 |  If_And_Else | Utilizando estrutura condicional If e Else, e operador lógico de conjunção (&&). Exemplo: valor do plano de saúde.|
+| 7 | Media | Calculando a média aritmética. Ex: calculando a média de 4 notas.|
+| 8 | Matriz | Imprimindo uma matriz na tela com valor pré-definido.|
+| 9 | Agenda_de_Cadastros | Agenda versão beta que permite cadastrar até 5 informações de clientes e tendo possibilidade de reimprimir essas informações novamente na tela sem que permita que seja inserido novos cadastros até que seja encerrado o programa (opção 0 - encerrar).|
+| 10 | Área | Calculando a área e o perímetro.|
+| 11 | Cardápio | Informa a quantidade total de calorias (comida e bebida) consumida pelo cliente.|
