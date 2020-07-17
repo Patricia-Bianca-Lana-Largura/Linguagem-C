@@ -17,7 +17,7 @@
 - Dev C++
 - Turbo C
 - Visual Studio
-- Visual Studio Code
+- Visual Studio Code (editor): não é específico pra linguagem C, mas é possível utilizar extensões que proporcionem essa possibilidade.
 
 ### Principais benefícios dos ambientes de desenvolvimento integrado:
 - Serve como um ambiente único para a maioria, se não todas, das necessidades de um desenvolvedor, como sistemas de controle de versão, ferramentas de depuração e Plataforma como serviço.
