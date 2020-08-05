@@ -30,6 +30,7 @@ A lógica de programação de um algoritmo consiste em estabelecer um conjunto d
  
 Número | Nome | Descrição |
 | ------------ | ------------ | ------------ |
+| 0 | [Ola-Mundo](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/0.%20Ola-Mundo.cpp) | Imprime na tela uma mensagem ao usuário. |
 | 1 | [Calculadora](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/1.Calculadora.cpp) | Resolve as 4 operações básicas (soma, subtração, divisão e multiplicação).  |
 | 2 | [IMC](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/2.IMC.cpp) | Exemplo de cálculo de Índice de Massa Corporal. |
 | 3 | [AreaDoTrapézio](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/3.AreaDoTrap%C3%A9zio.cpp) | Cálculo da área do Trapézio.  |
@@ -42,8 +43,6 @@ Número | Nome | Descrição |
 | 10 | [Área](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/10.%20%C3%81rea.cpp) | Calculando a área e o perímetro.|
 | 11 | [Cardápio](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/11.%20Card%C3%A1pio.cpp) | Informa a quantidade total de calorias (comida e bebida) consumida pelo cliente.|
 | 12 | [Antecessor_e_Sucessor](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/12.Antecessor_e_Sucessor.cpp) | Lendo um número inteiro e imprimindo seu sucessor e antecessor.|
-
-
 
 
 > Referências do conteúdo sobre IDE's: https://learn.g2.com/ide
