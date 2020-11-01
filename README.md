@@ -1,4 +1,4 @@
-# Algoritmo e Lógica de Programação
+# :computer: Algoritmo e Lógica de Programação
  Aprendendo lógica de programação com **linguagem C** na teoria e prática para adquirir entendimento dos novos comandos aprendidos.
 
 A lógica de programação de um algoritmo consiste em estabelecer um conjunto de passos e regras para descrever a resolução de um problema por meio de uma linguagem formal que possa ser compreendida por uma máquina.
@@ -26,7 +26,7 @@ A lógica de programação de um algoritmo consiste em estabelecer um conjunto d
 - Verifica automaticamente se há erros para garantir código de alta qualidade.
 - Os recursos de conclusão de código melhoram o fluxo de trabalho de programação.
 
-### Lista de Exercícios:
+### :pen: Lista de Exercícios:
  
 Número | Nome | Descrição |
 | ------------ | ------------ | ------------ |
