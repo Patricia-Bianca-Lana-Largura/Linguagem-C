@@ -44,6 +44,7 @@ Número | Nome | Descrição |
 | 11 | [Cardápio](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/11.%20Card%C3%A1pio.cpp) | Informa a quantidade total de calorias (comida e bebida) consumida pelo cliente.|
 | 12 | [Antecessor_e_Sucessor](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/12.Antecessor_e_Sucessor.cpp) | Lendo um número inteiro e imprimindo seu sucessor e antecessor.|
 | 13 | [Vetor](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/13.%20Vetor.cpp) | Lendo um vetor com 30 elementos inteiros e escrevendo em ordem contrária. |
-
+| 14 | [Operador Cast](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/14.%20OperadorCast.cpp) | O operador cast converte os resultados de um tipo de dados para outro. |
+| 15 | [Celsius para Fahrenheit](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/15.%20Celsius_para_Fahrenheit.cpp) | Converte uma temperatura em graus Celsius para Fahrenheit. |
 
 > Referências do conteúdo sobre IDE's: https://learn.g2.com/ide
