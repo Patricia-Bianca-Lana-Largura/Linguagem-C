@@ -6,10 +6,12 @@
 #include<math.h>
 #include<locale.h>
 
+
+
 int main(){
 	setlocale(LC_ALL,"Portuguese");
 	
-	float raio, area, perimetro, PI;
+	float  raio, area, perimetro, PI;
 	PI = 3,1415;
 	
 	printf("\nDigite o raio do círculo: \n");
@@ -19,7 +21,7 @@ int main(){
 	perimetro = 2*PI*raio;
 	
 	printf("A área é: %.2f \n",area);
-	printf("O perímetro é:%.2f \n",perimetro);
+	printf("O perímetro é:%.2f \n ",perimetro);
 	
 	return(0);
 	
