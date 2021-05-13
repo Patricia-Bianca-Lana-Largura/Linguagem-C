@@ -46,5 +46,7 @@ Número | Nome | Descrição |
 | 13 | [Vetor](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/13.%20Vetor.cpp) | Lendo um vetor com 30 elementos inteiros e escrevendo em ordem contrária. |
 | 14 | [Operador Cast](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/14.%20OperadorCast.cpp) | O operador cast converte os resultados de um tipo de dados para outro. |
 | 15 | [Celsius para Fahrenheit](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/15.%20Celsius_para_Fahrenheit.cpp) | Converte uma temperatura em graus Celsius para Fahrenheit. |
+| 16 | [EtanolvsGasolina](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/16.%20Etanol%20vs%20Gasolina.cpp) | Calcular qual o percentual do etanol em relação a gasolina |
+| 17 | [Pilhas](https://github.com/Patricia-Bianca-Lana-Largura/Linguagem-C/blob/master/Exercicios%20de%20Linguagem%20C/15.%20Celsius_para_Fahrenheit.cpp) | Empilhamento de elementos. |
 
 > Referências do conteúdo sobre IDE's: https://learn.g2.com/ide
