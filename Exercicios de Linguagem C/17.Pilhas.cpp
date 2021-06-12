@@ -61,13 +61,13 @@ int main(){
 	int aux;
 	
 	printf("Empilhando o 10.\n");
-	empilha(10);
+	empilha(77);
 	printf("Empilhando o 20.\n");
-	empilha(20);
+	empilha(12);
 	printf("Empilhando o 30.\n");
-	empilha(30);
+	empilha(44);
 	printf("Empilhando o 40.\n");
-	empilha(40);
+	empilha(33);
 	
 	printf("Desempilhou: %d. \n", desempilha());
 	printf("Desempilhou: %d. \n", desempilha());
